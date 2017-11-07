@@ -1,0 +1,104 @@
+.products__list{
+  flex-wrap: wrap;
+  border: 1px solid #f6f6f6;
+  .product{
+    border-bottom: 1px solid #f6f6f6;
+    padding: 33px 0 33px 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-shrink: 1;
+    position: relative;
+    height: 300px;
+    width: 33.33333%;
+
+      border-right: 1px solid #f6f6f6;
+
+    &:nth-child(3n){
+      border-right: none;
+    }
+    .product__addcart__button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 3px 3px 1px #dedede;
+      -moz-box-shadow: 0 3px 3px 1px #dedede;
+      box-shadow: 0 3px 3px 1px #dedede;
+      background: transparent;
+      border: none;
+      position: absolute;
+      right: 30px;
+      bottom: 30px;
+      .icon{
+        display: none;
+        &:first-child{
+          display: inline-block;
+        }
+      }
+    }
+    &:nth-child(5){
+      background: #f5efea;
+      .product__addcart__button{
+        background: #c59a77;
+      }
+    }
+  }
+  .product__info{
+    max-width: 120px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product__image{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product__description{
+    font-size: 12px;
+
+    font-family: "ProximaNovaBold";
+    color: #7f7f7f;
+  }
+  .product__title,
+  .product__price{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "ProximaNovaBold";
+  }
+  .product__price{
+    color: #7f7f7f;
+  }
+  .product__title{
+    color: #1e1e1e;
+  }
+}
+.product__banner{
+  width: 66.66666%;
+  padding: 27px 34px 27px;
+  overflow: hidden;
+  position: relative;
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .product__title{
+    width: 50%;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+  }
+  .product__description{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    color: #535151;
+    font-size: 14px;
+    font-family: "ProximaNovaRegular";
+  }
+}

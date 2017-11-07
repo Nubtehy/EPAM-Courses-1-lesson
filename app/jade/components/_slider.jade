@@ -1,0 +1,21 @@
+section
+    .slider
+        .uk-container
+            .slider__container
+                input(class="bullet__input" type="radio" name="bullet" id="slider_1" checked )
+                input(class="bullet__input" type="radio" name="bullet" id="slider_2")
+                ul.slider__list
+                    li
+                        img(src="img/slider_1.png")
+                        a(href="/" class="slider__more") Подробнее
+                    li
+                        img(src="img/slider_2.png")
+                        a(href="/" class="slider__more") Подробнее
+                .bullet__container
+                    label(for="slider_1" class="buller__item")
+                    label(for="slider_2" class="buller__item")
+                .slider__next
+                    label(for="slider_2" class="next__item")
+                        i(class="icon right-openicon-")
+                    label(for="slider_1" class="next__item")
+                        i(class="icon right-openicon-")

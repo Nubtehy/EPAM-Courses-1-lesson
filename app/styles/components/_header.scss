@@ -1,0 +1,95 @@
+.header__top{
+  padding-top: 15px;
+}
+.header__worktime{
+  color: $greycolor;
+  font-family: "ProximaNovaBold";
+  font-size: 12px;
+}
+.header__phone{
+  padding-right: 20px;
+  color: $titleColor;
+  font-family: "ProximaNovaBold";
+}
+.header__navbar__nav{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header__cart{
+  padding-left: 20px;
+  align-items: center;
+  .header__cart__count{
+    padding-left: 8px;
+  }
+}
+.header__enter{
+  align-items: center;
+  font-size: 10px;
+  a{
+    color: $greycolor;
+    text-transform: uppercase;
+  }
+}
+.header__nav__item{
+  font-size: 10px;
+  display: inline-block;
+  a{
+    color: $greycolor;
+    text-transform: uppercase;
+    padding: 0 14px;
+  }
+}
+.header__middle{
+  padding: 45px 0 34px;
+  justify-content: center;
+  border-bottom: 1px solid #fbfbfb;
+  &__logo{
+    font-family: "brandon";
+    text-transform: uppercase;
+    font-size: 24px;
+    color: $titleColor;
+    &:hover{
+      text-decoration: none;
+      color: $titleColor;
+    }
+  }
+}
+.header__bottom{
+  nav{
+    width: 100%;
+  }
+}
+.header__main__nav{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  .header__main__item{
+    padding: 22px 0;
+    a{
+      font-family: "ProximaNovaBold";
+      text-transform: uppercase;
+      color: $titleColor;
+      transition: 0.1s ease-in-out all;
+      position: relative;
+      &:hover{
+        text-decoration: none;
+        color: #c59a77;
+      }
+    }
+  }
+}
+.header__bottom__search{
+  display: flex;
+  align-items: center;
+  button{
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+

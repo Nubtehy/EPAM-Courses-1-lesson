@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+  url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "brandon";
+  src: url("../fonts/brandon_bld.otf") format("opentype");
+}
+@font-face {
+  font-family: 'fontawesome';
+  src: url('../fonts/fontawesome.eot?16600569');
+  src: url('../fonts/fontawesome.eot?16600569#iefix') format('embedded-opentype'),
+  url('../fonts/fontawesome.woff?16600569') format('woff'),
+  url('../fonts/fontawesome.ttf?16600569') format('truetype'),
+  url('../fonts/fontawesome.svg?16600569#fontawesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
